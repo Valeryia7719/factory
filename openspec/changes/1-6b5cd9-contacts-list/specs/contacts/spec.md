@@ -31,7 +31,7 @@ The UI SHALL show a signed-in user, at `/contacts`, a "Contacts" screen that lis
 #### Scenario: [contacts-fe490f] The contacts screen lists the API's contacts
 - **WHEN** a signed-in user opens `/contacts` and the `contacts` query answers several contacts
 - **THEN** the page shows the "Contacts" heading and each contact's name and email in the answered order
-- **NO E2E** not-built: a contact cannot be created until the "add a contact" issue; proven by services/ui/tests/integration/contacts-page.test.tsx
+- **NO E2E** not-built: a contact cannot be created until the "add a contact" issue; proven by services/ui/tests/unit/pages/contacts/ContactsPage.test.tsx
 
 ### Requirement: The contacts screen says when there are no contacts
 The UI SHALL show "No contacts yet." on the contacts screen when the `contacts` query answers an empty list.
